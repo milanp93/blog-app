@@ -5,9 +5,9 @@
         android:id="@+id/list_blog_icon"
         android:padding="5dp"
         android:layout_gravity="center_vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:contentDescription="@string/blog_message" />
 
@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/list_blog_icon"
+        android:layout_toEndOf="@id/list_blog_icon"
         style="@style/title" />
 
     <TextView
@@ -24,6 +24,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/list_blog_title"
-        android:layout_toRightOf="@id/list_blog_icon"
+        android:layout_toEndOf="@id/list_blog_icon"
         style="@style/subject" />
 </RelativeLayout>
