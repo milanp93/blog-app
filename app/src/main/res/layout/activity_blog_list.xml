@@ -4,10 +4,6 @@
     android:id="@+id/activity_blog_list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.milan.proba.BlogList">
     <ListView
         android:id="@+id/blog_list"
@@ -20,6 +16,7 @@
         android:text="@string/no_internet_connection"
         android:textSize="18sp"
         android:textColor="#FF0000"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:visibility="invisible"/>
 
 </RelativeLayout>
